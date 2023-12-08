@@ -1,0 +1,108 @@
+
+/* DEVELOPER: Wilfer Gelabert, IS117-005, Fall 2023 */
+/* Body and General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #d9534f; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Jumbotron (Large Image Section) Styling */
+
+.jumbotron img {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    opacity: 0.7; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+.jumbotron {
+    background: url('../images/HomepageImage.jpg') center center / cover no-repeat;
+    height: 100vh; 
+    text-align: center; 
+    color: #fff; 
+    padding: 100px 0; 
+}
+
+
+.jumbotron h1,
+.jumbotron p {
+    color: black; 
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    color:#d9534f ;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #020202;
+}
+
+.btn-primary {
+    background-color: #d9534f; 
+    border-color: #d9534f;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c; 
+    border-color: #c9302c;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.list-inline-item {
+    padding: 0 10px;
+}
